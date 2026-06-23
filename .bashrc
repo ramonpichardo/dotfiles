@@ -6,6 +6,9 @@ HISTTIMEFORMAT="%F %T "
 # See bash(1) for more options.
 HISTCONTROL=ignoreboth
 
+# Append to the historry file, don't overwrite it.
+shopt -s histappend
+
 # For setting history length see HISTSIZE and HISTFILESIZE in bash(1)
 HISTSIZE=100000
 HISTFILESIZE=200000
