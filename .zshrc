@@ -1,3 +1,4 @@
+# Set the prompt
 export PS1="%D %T %n@%m [%1~]: "
 
 # Aliases
