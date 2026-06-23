@@ -1,6 +1,7 @@
 # Prepend date and time for each saved command in the history file.
-HISTTIMEFORMAT="%Y-%m-%d %T "
+# This sets the format to YYYY-MM-DD HH:MM:SS.
+HISTTIMEFORMAT="%F %T "
 
-# for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
+# For setting history length see HISTSIZE and HISTFILESIZE in bash(1)
 HISTSIZE=100000
 HISTFILESIZE=200000
