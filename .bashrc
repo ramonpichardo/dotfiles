@@ -2,6 +2,10 @@
 # This sets the format to YYYY-MM-DD HH:MM:SS.
 HISTTIMEFORMAT="%F %T "
 
+# Don't put duplicate lines or lines starting with space in the history file.
+# See bash(1) for more options.
+HISTCONTROL=ignoreboth
+
 # For setting history length see HISTSIZE and HISTFILESIZE in bash(1)
 HISTSIZE=100000
 HISTFILESIZE=200000
